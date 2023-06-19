@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    background-image: url('images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.banner{
+    text-align: right;
+    margin-right: 100px;
+}
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    margin-left: 845px;
+    padding-top: 224px;
+}
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-left: 876px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.btn-primary {
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0px;
+    padding: 18px 35px;
+}
+/*main*/
+main{
+    margin-right: 100px;
+}
+.failure{
+    display: flex;
+    justify-content: space-around;
+    gap: 87px;
+    margin-top: 140px;
+}
+.failure-image{
+    margin-left: 206px;
+}
+.failure-text{
+    margin-right: 130px;
+}
+.failure-title {
+    padding-top: 240px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+.failure-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.failure-list{
+    list-style: none;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+.failure-list li {
+    margin-left: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+.failure-list li:before {
+    content: '✓';
+    color: #16D887
+}
+/*section plans*/
+.plans{
+    margin: 130px;
+    
+}
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 56px; 
+    text-align: center;
+}
+.section-component{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin-left: 200px;
+    margin-right: 100px;
+    align-items: center;
+    text-align: center;
+}
+.component-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.component-description {
+    font-weight: 600;
+    font-size: 23px;
+    color: #737272;
+    margin-bottom: 32px;
+
+    
+}
+
